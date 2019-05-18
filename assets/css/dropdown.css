@@ -1,0 +1,93 @@
+/*dropdown menu*/
+
+a:hover {
+    text-decoration: none;
+}
+
+.mainmenu-area ul {
+    background: #26395a;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu-area li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu-area li a {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.mainmenu-area li ul {
+    position: absolute;
+    left: 0;
+    top: 52px;
+    width: 200px;
+    z-index: 2;
+    text-transform: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.mainmenu-area li ul li:nth-child(odd) {
+    /*background: #457fca;*/
+}
+
+
+
+/*second level dropdown*/
+
+.mainmenu-area ul ul li:hover ul {
+    left: 200px;
+    top: 0;
+}
+
+.mainmenu-area li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainmenu-area li ul a {
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainmenu-area li ul li {
+    display: block;
+}
+
+.mainmenu-area ul li:hover>a {
+    background: teal;
+    color: #fff;
+}
+
+.mainmenu-area ul li>a {
+    transition: .3s;
+}
+
+
+/*second level dropdown menu*/
+
+.mainmenu-area li:hover ul ul {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.mainmenu-area ul ul li ul {
+    left: 200px;
+}
+
+.mainmenu-area ul ul li:hover>ul {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}

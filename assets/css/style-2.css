@@ -1,0 +1,38 @@
+h3 {
+    font-size: 22px;
+}
+
+.hero-area {
+    background-image: url(../img/hero-bg-2.png);
+    background-color: #359af3;
+}
+
+.boxed-btn,
+input[type=submit],
+button[type=submit] {
+    background-color: #359af3;
+}
+
+.hero-area {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.8;
+    padding: 80px 0;
+}
+
+.hero-area h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 90px;
+}
+
+.service-icon {
+    color: #2ea5f6;
+    margin-bottom: 15px;
+}
+
+.single-blog-box h3 {
+    font-size: 20px;
+    line-height: 1.5;
+}

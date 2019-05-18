@@ -1,0 +1,184 @@
+    /* Medium Layout: 1280px. */
+
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .boxed-btn,
+        input[type=submit],
+        button[type=submit] {
+            font-size: 13px;
+            padding: 13px 12px;
+        }
+        .single-service-box {
+            padding: 15px;
+        }
+        .single-case-study {
+            height: 280px;
+        }
+        .blog-thumb-wrapper {
+            height: 200px;
+        }
+        .hero-area h1 {
+            font-size: 40px;
+        }
+        .single-service-box-2 {
+            height: 220px;
+        }
+        .slide-item-wrapper h2 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        .pd-50 {
+            padding-top: 30px;
+        }
+        .single-blog-box {
+            padding: 20px;
+        }
+        .blog-thumb-wrapper {
+            margin-bottom: 20px;
+            margin-left: -20px;
+            margin-top: -20px;
+            margin-right: -20px;
+        }
+        .service-section {
+            padding-top: 30px;
+        }
+        .service-section:before {
+            top: -46px;
+            width: 48%;
+        }
+        .boxed-case-study .single-case-study {
+            height: 220px;
+        }
+    }
+    /* Tablet Layout: 768px. */
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {}
+    /* Tablet and mobile Layout: 768px. */
+
+    @media only screen and (max-width: 991px) {
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .mainmenu {
+            display: none;
+        }
+        .hero-area .text-right {
+            text-align: left;
+        }
+        .header-area .text-right,
+        .cta-area .text-right,
+        .cta-area {
+            text-align: center;
+        }
+        .hero-area {
+            padding: 50px 0;
+        }
+        .website-checker-form {
+            margin-bottom: 30px;
+        }
+        .mobile-padding-fix {
+            padding-top: 0;
+            padding-bottom: 50px;
+        }
+        .mobile-text-left {
+            text-align: left;
+        }
+        .section-padding {
+            padding: 75px 0;
+        }
+        .cta-area .boxed-btn {
+            margin-top: 20px;
+        }
+        .mobile-only-margin {
+            height: 50px;
+        }
+        .breadcrumb-area {
+            padding: 80px 0;
+            font-size: 18px;
+        }
+        .breadcrumb-area h2 {
+            margin-bottom: 10px;
+        }
+        .tablet-mobile-blogs .single-blog-box {
+            min-height: inherit;
+            margin-bottom: 30px;
+        }
+        .hero-area h1 {
+            font-size: 40px;
+            margin-top: 0;
+            max-width: inherit;
+        }
+        .hero-form {
+            margin-top: 50px;
+        }
+        .pricing-content .boxed-btn {
+            margin-bottom: 20px;
+        }
+        .slide-item-wrapper h2 {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        .footer-area-2,
+        .footer-area-2 .social-links,
+        .copyright-area-2,
+        .copyright-area-2 .text-right {
+            text-align: center;
+        }
+        .tile-gallery.text-right {
+            text-align: left;
+        }
+        .absolute-gallery-img-1 {
+            position: relative;
+            top: auto;
+        }
+        .service-section:before {
+            display: none;
+        }
+        .service-box-2 {
+            min-height: inherit;
+        }
+        .service-section:after {
+            width: 100%;
+        }
+        .single-service-box {
+            min-height: 360px;
+        }
+        .tile-gallery {
+            margin-bottom: 30px;
+        }
+        .slicknav_menu {
+            display: block;
+        }
+    }
+    /* Mobile Layout: 320px. */
+
+    @media only screen and (max-width: 767px) {
+        .footer-area ul,
+        .case-study-box-style2,
+        .single-pricing-box,
+        .single-blog-box {
+            margin-bottom: 50px;
+        }
+        .website-check-form input {
+            margin-right: 0;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .website-check-form input[type=submit] {
+            width: auto;
+        }
+        .slide-item-wrapper h2 {
+            font-size: 20px;
+            line-height: 32px;
+        }
+        .service-section {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        input[type=url] {
+            margin-bottom: 10px;
+        }
+    }
+    /* Wide Mobile Layout: 480px. */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
